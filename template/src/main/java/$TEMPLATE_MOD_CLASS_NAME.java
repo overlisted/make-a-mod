@@ -1,4 +1,4 @@
-package $TEMPLATE_GRADLE_GROUP;
+package $TEMPLATE_GRADLE_GROUP.$TEMPLATE_MODID;
 
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
