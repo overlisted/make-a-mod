@@ -1,0 +1,23 @@
+modLoader="javafml"
+loaderVersion="[31,)"
+
+[[mods]]
+  modId="$TEMPLATE_MODID"
+  version="$TEMPLATE_MOD_VERSION"
+  displayName="$TEMPLATE_MOD_TITLE"
+  logoFile="logo.png"
+  authors="$TEMPLATE_MOD_AUTHOR"
+  description="$TEMPLATE_MOD_DESCRIPTION"
+
+[[dependencies.$TEMPLATE_MODID]]
+  modId="forge"
+  mandatory=true
+  versionRange="[31,)"
+  ordering="NONE"
+  side="BOTH"
+[[dependencies.$TEMPLATE_MODID]]
+  modId="minecraft"
+  mandatory=true
+  versionRange="[1.15.2]"
+  ordering="NONE"
+  side="BOTH"
